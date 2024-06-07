@@ -9,9 +9,7 @@ This project is a basic NESTjs application that provides CRUD (Create, Read, Upd
 - [Installation](#installation)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
-
+- [Thank You](#thank-you)
 ## Introduction
 
 This project aims to demonstrate the implementation of a simple CRUD API using NESTjs and PostgreSQL. It provides endpoints for creating, retrieving, updating, and deleting users and their associated wallet addresses. The application follows basic RESTful principles and includes validation and error handling features.
@@ -84,11 +82,19 @@ DELETE http://localhost:3000/users/1
 ```
 
 ## API Endpoints
+1. Users
 - POST /users : Create a new user.
 - GET /users : Retrieve a list of users.
 - GET /users/:id : Retrieve a specific user by ID.
 - PUT /users/:id : Update a user's details.
 - DELETE /users/:id : Delete a user by ID.
 
-## Thank You!
+2. Wallet Address
+- POST /wallet-address : Create a new wallet address.
+- GET /wallet-address : Retrieve a list of wallet addresses.
+- GET /wallet-address/:id : Retrieve a specific wallet address by ID.
+- PUT /wallet-address/:id : Update a wallet address's details.
+- DELETE /wallet-address/:id : Delete a wallet address by ID.
+
+## Thank You
 Thank you for using this project! If you have any questions or suggestions for improvements, feel free to reach out. Your feedback is valuable and appreciated.
